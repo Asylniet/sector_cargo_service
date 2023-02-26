@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+:root {
+  --clr-primary-900: #1556BC;
+  --clr-primary-700: #90BCFF;
+  --clr-accent-700: #75B841;
+  --clr-neutral-1000: #ffffff;
+  --clr-neutral-700: #F5F5F5;
+  --clr-dark-700: #000000;
+  --clr-dark-500: #6F6F6F;
+  --clr-dark-400: #707070;
+  --clr-shadow: rgba(0, 0, 0, 0.05);
+  --ff-primary: "Inter", sans-serif;
+  --fw-regular: 400;
+  --fw-medium: 600;
+  --fs-700: 2.625rem;
+  --fs-500: clamp(16px, 2rem, 32px);
+  --fs-400: clamp(16px, 1.875rem, 30px);
+  --fs-350: clamp(16px, 1.5rem, 24px);
+  --fs-300: clamp(16px, 1.25rem, 20px);
+  --fs-200: clamp(16px, 1.125rem, 18px);
+  --fs-100: 1rem;
+  --fs-50: 0.875rem;
+  --fs-25: 0.75rem;
+  --inline-padding: clamp(10px, 4vw, 70px);
+  --transition-ease: cubic-bezier(.79, -0.02, .28, .98);
+}

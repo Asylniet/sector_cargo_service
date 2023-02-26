@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  // Buttons and highlights, main color of the site
+  --clr-primary-900: #1556BC;
+  --clr-primary-700: #90BCFF;
+
+  // Additional color to primary
+  --clr-accent-700: #75B841;
+
+  // General background and ambient colors
+  --clr-neutral-1000: #ffffff;
+  --clr-neutral-700: #F5F5F5;
+
+  --clr-dark-700: #000000;
+  --clr-dark-500: #6F6F6F;
+  --clr-dark-400: #707070;
+  --clr-shadow: rgba(0, 0, 0, 0.05);
+
+  // Font styles
+  --ff-primary: 'Inter', sans-serif;
+  // --ff-secondary: ;
+
+  // --fw-small: 300;
+  --fw-regular: 400;
+  // --fw-semi-medium: 500;
+  --fw-medium: 600;
+  // --fw-bold: 700;
+
+  --fs-700: 2.625rem; // 42 px
+  --fs-500: clamp(16px, 2rem, 32px); // 32px
+  --fs-400: clamp(16px, 1.875rem, 30px); // 30px
+  --fs-350: clamp(16px, 1.5rem, 24px); // 24px
+  --fs-300: clamp(16px, 1.25rem, 20px); // 20px
+  --fs-200: clamp(16px, 1.125rem, 18px); // 18px
+  --fs-100: 1rem; // 16px
+  --fs-50: 0.875rem; // 14px
+  --fs-25: 0.75rem; // 12px
+
+  --inline-padding: clamp(10px, 4vw, 70px);
+
+  --transition-ease: cubic-bezier(.79, -0.02, .28, .98);
+}
