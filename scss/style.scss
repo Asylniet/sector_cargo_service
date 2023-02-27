@@ -173,6 +173,7 @@ section:not(.hero) {
     &-image {
         width: clamp(12.5rem, 40%, 22rem);
     }
+
     ul {
         flex: 1;
         min-width: 18.125rem;
@@ -221,13 +222,16 @@ ul {
     border: 1px solid var(--clr-shadow);
     transition: 0.2s var(--transition-ease);
     margin: 1% auto 0;
+
     &:hover {
         box-shadow: 0 0 3.75rem var(--clr-shadow);
         border-color: transparent;
     }
+
     img {
         margin-inline: auto;
     }
+
     &-title {
         margin-block: 1rem;
         font-weight: var(--fw-medium);
@@ -238,14 +242,17 @@ ul {
     &-wrapper {
         gap: 2rem;
         font-size: var(--fs-350);
+
         img {
             max-width: 21.5rem;
             flex: 1;
         }
+
         ul {
             min-width: 18.125rem;
             max-width: 43.125rem;
             flex: 1;
+
             li:nth-child(2) {
                 margin: 2rem 0 0 0;
             }
@@ -258,6 +265,7 @@ footer {
     width: 100%;
     @include flex();
     padding-block: 2rem;
+
     nav {
         @include flex();
         gap: 2rem;
@@ -273,6 +281,7 @@ footer {
 
 .footer-column {
     text-align: right;
+
     a {
         margin-left: auto;
         margin-bottom: 1rem;
@@ -285,7 +294,8 @@ footer {
         display: none;
     }
 
-    nav, footer nav a:not(.logo) {
+    nav,
+    footer nav a:not(.logo) {
         display: none;
     }
 }
